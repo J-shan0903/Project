@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>练习3</title>
+</head>
+<body>
+    <h2>增加管理员</h2>
+    <table>
+        <tr>
+            <td> 
+                <label for="uname">姓名：</label>
+            </td>
+            <td>
+                <input type="text" id="uname">
+            </td>
+            <td>
+                十个字符以内
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td> 
+                <label for="pwd">密码：</label>
+            </td>
+            <td>
+                <input type="text" id="pwd">
+            </td>
+            <td>
+                十个字符以内
+            </td>
+        </tr>
+        <tr>
+            <td>
+                性别：
+            </td>
+            <td>
+                <input type="radio" id ="man"  name="gender">
+                <label for="man">男</label>
+                <input type="radio" id ="woman"  name="gender">
+                <label for="woman">女</label>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                角色：
+            </td>
+            <td>
+                <input type="checkbox" id="super" name="manage">
+                <label for="super">超级管理员</label>
+                <br>
+                <input type="checkbox" id="tab" name="manage">
+                <label for="tab">账单管理员</label>
+            </td>
+            <td>
+                至少选择一个角色
+            </td>
+        </tr>
+        <tr>
+            <td>
+                头像：
+            </td>
+            <td>
+                <input type="file">
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="保存">
+                <input type="reset">
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
